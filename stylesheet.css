@@ -1,0 +1,117 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  max-width: 400;
+}
+
+  body {
+      font-family: 'Times New Roman', Times, serif;
+      background-image: url("https://portraitsrefined.com/wp-content/uploads/2020/03/Camera-on-table.jpg");
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: center;
+    }
+    
+
+
+.container {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+#navbar {
+  background-color: rgba(255, 251, 251, 0.027);
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 999;
+}
+
+#navbar ul {
+  list-style-type: none;
+  display: flex;
+  justify-content: space-around;
+  padding: 10px;
+  font-size: 50px;
+  font: bold;
+  background-color:#e7d7be;
+  padding: 20px;
+  margin-bottom: 20px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  border-radius: 25px; 
+ 
+}
+
+
+
+#navbar li {
+  margin-right: 20px;
+}
+
+#navbar a {
+  color: rgb(17, 17, 17);
+  text-decoration: none;
+}
+
+#navbar a:hover {
+  text-decoration: underline;
+}
+
+#welcome-section {
+  height: 60vh;
+  display: flex;
+  justify-content: center;
+  align-items: center; 
+}
+
+#welcome-section .container {
+  text-align: center;
+  color:rgb(0, 0, 0);
+  padding: 20px;
+}
+
+#welcome-section h1 {
+  font-size: 80px;
+  margin-bottom: 20px;
+}
+
+#projects {
+  padding: 40px 0;
+  color: black;
+  font-size: 30px;
+  
+}
+
+#projects a#profile-link {
+  display: none;
+}
+
+.project-tile {
+  background-color:#e7d7be;
+  padding: 20px;
+  margin-bottom: 20px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  border-radius: 25px;
+}
+
+footer {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+}
+
+/* Media Query for Responsive Design */
+@media (max-width: 768px) {
+  .container {
+    padding: 10px;
+  }
+
+  #projects a#profile-link {
+    display: inline-block;
+  }
+  h2{
+    background-color:#020202;
+  }
+}
